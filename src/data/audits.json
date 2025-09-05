@@ -1,0 +1,181 @@
+{
+  "planYear": 2025,
+  "plans": [
+    {
+      "id": "2025-01-ISO9001",
+      "area": "Information Security",
+      "department": "IT",
+      "frequency": "Annual",
+      "standard": "ISO 9001",
+      "auditors": [
+        {
+          "userId": "u.john",
+          "name": "John Priya",
+          "assignment": {
+            "area": "IT Infrastructure",
+            "zone": "Server Room, Network Center",
+            "dateFrom": "2025-01-15T08:00:00",
+            "dateTo": "2025-01-20T17:00:00"
+          }
+        }
+      ],
+      "schedule": {
+        "from": "2025-01-15",
+        "to": "2025-01-20"
+      },
+      "status": "Planned",
+      "remarks": "ISO 9001 scope",
+      "checklists": [
+        {
+          "id": "CK-01",
+          "title": "Information Security Management",
+          "items": [
+            { "id": "Q1", "text": "Are access controls properly implemented?", "rating": null, "evidence": [] },
+            { "id": "Q2", "text": "Is incident response plan current?", "rating": null, "evidence": [] }
+          ]
+        }
+      ],
+      "reports": [
+        { "id": "AR-01", "issuedAt": null, "summary": "", "carCount": 0, "parCount": 0 }
+      ],
+      "cars": []
+    },
+    {
+      "id": "2025-02-GHPs",
+      "area": "Vendor Risk Management",
+      "department": "Procurement",
+      "frequency": "Semi-Annual",
+      "standard": "GHPs",
+      "auditors": [
+        {
+          "userId": "u.karan",
+          "name": "Karan",
+          "assignment": {
+            "area": "Procurement Office",
+            "zone": "Vendor Management Center",
+            "dateFrom": "2025-02-10T09:00:00",
+            "dateTo": "2025-02-14T16:00:00"
+          }
+        },
+        {
+          "userId": "u.susan",
+          "name": "Susan",
+          "assignment": {
+            "area": "Quality Assurance",
+            "zone": "Inspection Area",
+            "dateFrom": "2025-02-10T09:00:00",
+            "dateTo": "2025-02-14T16:00:00"
+          }
+        }
+      ],
+      "schedule": {
+        "from": "2025-02-10",
+        "to": "2025-02-14"
+      },
+      "status": "Planned",
+      "remarks": "SOC 2 control validation",
+      "checklists": [
+        {
+          "id": "CK-02",
+          "title": "Good Hygiene Practices Compliance",
+          "items": [
+            { "id": "Q1", "text": "Are hygiene protocols followed?", "rating": null, "evidence": [] },
+            { "id": "Q2", "text": "Is sanitization schedule maintained?", "rating": null, "evidence": [] }
+          ]
+        }
+      ],
+      "reports": [
+        { "id": "AR-02", "issuedAt": null, "summary": "", "carCount": 0, "parCount": 0 }
+      ],
+      "cars": []
+    },
+    {
+      "id": "2025-03-ISO9001",
+      "area": "Finance Controls",
+      "department": "Finance",
+      "frequency": "Annual",
+      "standard": "ISO 9001",
+      "auditors": [
+        {
+          "userId": "u.devika",
+          "name": "Devika",
+          "assignment": {
+            "area": "Finance Department",
+            "zone": "Accounting Office, Treasury",
+            "dateFrom": "2025-03-03T08:30:00",
+            "dateTo": "2025-03-07T17:30:00"
+          }
+        }
+      ],
+      "schedule": {
+        "from": "2025-03-03",
+        "to": "2025-03-07"
+      },
+      "status": "Not Started",
+      "remarks": "High-priority review",
+      "checklists": [
+        {
+          "id": "CK-03",
+          "title": "Financial Controls Assessment",
+          "items": [
+            { "id": "Q1", "text": "Are financial approvals documented?", "rating": null, "evidence": [] },
+            { "id": "Q2", "text": "Is segregation of duties maintained?", "rating": null, "evidence": [] }
+          ]
+        }
+      ],
+      "reports": [
+        { "id": "AR-03", "issuedAt": null, "summary": "", "carCount": 0, "parCount": 0 }
+      ],
+      "cars": []
+    },
+    {
+      "id": "2025-04-HACCP",
+      "area": "HR Policy Compliance",
+      "department": "Human Resources",
+      "frequency": "Annual",
+      "standard": "HACCP",
+      "auditors": [
+        {
+          "userId": "u.amit",
+          "name": "Amit",
+          "assignment": {
+            "area": "HR Department",
+            "zone": "Training Center, Policy Office",
+            "dateFrom": "2025-04-15T09:00:00",
+            "dateTo": "2025-04-18T16:00:00"
+          }
+        },
+        {
+          "userId": "u.mary",
+          "name": "Mary",
+          "assignment": {
+            "area": "Employee Relations",
+            "zone": "HR Services Center",
+            "dateFrom": "2025-04-15T09:00:00",
+            "dateTo": "2025-04-18T16:00:00"
+          }
+        }
+      ],
+      "schedule": {
+        "from": "2025-04-15",
+        "to": "2025-04-18"
+      },
+      "status": "In Progress",
+      "remarks": "Include training records",
+      "checklists": [
+        {
+          "id": "CK-04",
+          "title": "HACCP Implementation",
+          "items": [
+            { "id": "Q1", "text": "Are HACCP principles implemented?", "rating": null, "evidence": [] },
+            { "id": "Q2", "text": "Is critical control point monitoring active?", "rating": null, "evidence": [] }
+          ]
+        }
+      ],
+      "reports": [
+        { "id": "AR-04", "issuedAt": null, "summary": "", "carCount": 0, "parCount": 0 }
+      ],
+      "cars": []
+    }
+  ]
+}

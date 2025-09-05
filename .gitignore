@@ -2,11 +2,39 @@
 
 # dependencies
 /node_modules
+
+# Build output
+/dist/
+/build/
+
+# Dependency directories
 /.pnp
 .pnp.js
 
 # testing
 /coverage
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.*
 
 # next.js
 /.next/
@@ -34,3 +62,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Optional: ignore local dev data
+*.local.json
+package-lock.json
+yarn.lock

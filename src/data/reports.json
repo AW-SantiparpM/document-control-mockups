@@ -1,0 +1,18 @@
+{
+  "kpis": [
+    { "key": "docs_published_month", "label": "Docs Published (30d)", "value": 14, "delta": 8 },
+    { "key": "open_cars", "label": "Open CARs", "value": 5, "delta": -2 },
+    { "key": "forms_submitted", "label": "Forms Submitted (7d)", "value": 42, "delta": 5 }
+  ],
+  "charts": {
+    "docByStatus": [
+      { "status": "Draft", "count": 6 },
+      { "status": "InReview", "count": 4 },
+      { "status": "Published", "count": 32 }
+    ],
+    "carsByStatus": [
+      { "status": "Open", "count": 5 },
+      { "status": "Closed", "count": 12 }
+    ]
+  }
+}

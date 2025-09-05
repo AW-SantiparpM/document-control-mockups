@@ -1,0 +1,47 @@
+[
+  {
+    "id": "PR-2025-001",
+    "status": "Draft",
+    "productName": "New Cosmetic Tube A",
+    "category": "New Product",
+    "customer": "ACME Corp",
+    "requestedBy": "u.alice",
+    "createdAt": "2025-08-20T09:00:00Z",
+    "updatedAt": "2025-08-20T09:00:00Z",
+    "spec": {
+      "ttmCode": "TTM-TBA",
+      "type": "STD TTM",
+      "layer": 3,
+      "diameterMm": 22,
+      "wallThickness": "STD",
+      "tubeColor": "White",
+      "capType": "Flip Top",
+      "capColor": "White",
+      "printing": {
+        "method": ["Normal"],
+        "position": "360",
+        "coating": "Silver"
+      },
+      "sticker": {
+        "hasSticker": false
+      },
+      "endSealing": "TTM Standard",
+      "shoulder": "Normal",
+      "materials": {
+        "tube": "PE",
+        "cap": "PP"
+      }
+    },
+    "tests": {
+      "leakTest": true,
+      "torqueOpen": null,
+      "torqueCap": null
+    },
+    "packing": {
+      "std": true,
+      "innerPacking": "Plastic bag",
+      "outerPacking": "Carton"
+    },
+    "notes": "Initial draft"
+  }
+]

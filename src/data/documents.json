@@ -1,0 +1,38 @@
+[
+  {
+    "id": "QM-QA-001",
+    "title": "Quality Manual",
+    "type": "Quality Manual",
+    "status": "Published",
+    "owner": "u.alice",
+    "group": "QA",
+    "currentVersion": 3,
+    "versions": [
+      { "v": 1, "hash": "abc", "size": 23456, "signed": false, "watermarkApplied": true, "createdAt": "2025-01-10T08:00:00Z" },
+      { "v": 2, "hash": "def", "size": 24567, "signed": true, "signedBy": "u.bob", "signedAt": "2025-02-02T10:00:00Z", "watermarkApplied": true, "createdAt": "2025-02-02T10:00:00Z" },
+      { "v": 3, "hash": "ghi", "size": 25123, "signed": true, "signedBy": "u.carla", "signedAt": "2025-03-15T11:30:00Z", "watermarkApplied": true, "createdAt": "2025-03-15T11:30:00Z" }
+    ],
+    "history": [
+      { "event": "Created", "at": "2025-01-10T08:00:00Z", "user": "u.alice" },
+      { "event": "Approved", "at": "2025-02-02T10:00:00Z", "user": "u.bob" },
+      { "event": "Published", "at": "2025-03-15T11:31:00Z", "user": "u.carla" }
+    ]
+  },
+  {
+    "id": "QP-PD-011",
+    "title": "Tube Cleaning Procedure",
+    "type": "Quality Procedure",
+    "status": "InReview",
+    "owner": "u.dan",
+    "group": "HSE",
+    "currentVersion": 2,
+    "versions": [
+      { "v": 1, "hash": "x1", "size": 12000, "signed": false, "watermarkApplied": false, "createdAt": "2025-06-01T11:00:00Z" },
+      { "v": 2, "hash": "x2", "size": 13000, "signed": false, "watermarkApplied": false, "createdAt": "2025-07-01T11:00:00Z" }
+    ],
+    "history": [
+      { "event": "Created", "at": "2025-06-01T11:00:00Z", "user": "u.dan" },
+      { "event": "SubmittedForReview", "at": "2025-07-02T08:00:00Z", "user": "u.dan" }
+    ]
+  }
+]

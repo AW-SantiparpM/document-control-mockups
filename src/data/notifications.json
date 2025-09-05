@@ -1,0 +1,4 @@
+[
+  { "id": "NTF-1", "channel": "web", "message": "Document DOC-001 moved to Approved", "createdAt": "2025-08-28T07:00:00Z", "read": false },
+  { "id": "NTF-2", "channel": "email", "message": "CAR-1001 due in 3 days", "createdAt": "2025-08-28T08:00:00Z", "read": false }
+]

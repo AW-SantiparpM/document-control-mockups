@@ -1,0 +1,22 @@
+[
+  {
+    "id": "FRM-01",
+    "name": "Maintenance Request",
+    "version": 1,
+    "schema": [
+      { "field": "machineId", "type": "text", "label": "Machine ID", "required": true },
+      { "field": "priority", "type": "select", "options": ["Low","Medium","High"], "label": "Priority" },
+      { "field": "description", "type": "textarea", "label": "Issue Description", "required": true }
+    ]
+  },
+  {
+    "id": "FRM-02",
+    "name": "Incident Report",
+    "version": 1,
+    "schema": [
+      { "field": "date", "type": "date", "label": "Date", "required": true },
+      { "field": "location", "type": "text", "label": "Location" },
+      { "field": "severity", "type": "select", "options": ["Minor","Moderate","Severe"], "label": "Severity" }
+    ]
+  }
+]

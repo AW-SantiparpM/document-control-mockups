@@ -1,0 +1,48 @@
+[
+  {
+    "id": "APR-0001",
+    "targetType": "Document",
+    "targetId": "DOC-002",
+    "title": "Safety Procedure v2",
+    "requestedBy": "u.dan",
+    "status": "Pending",
+    "pendingStep": "DC Review",
+    "steps": [
+      { "name": "DC Review", "approver": "u.alice", "status": "Pending" },
+      { "name": "HSE Approval", "approver": "u.carla", "status": "Waiting" }
+    ],
+    "createdAt": "2025-07-02T08:05:00Z",
+    "updatedAt": "2025-07-02T08:05:00Z"
+  },
+  {
+    "id": "APR-0002",
+    "targetType": "ProductRequest",
+    "targetId": "PR-2025-001",
+    "title": "New Cosmetic Tube A",
+    "requestedBy": "u.alice",
+    "status": "Pending",
+    "pendingStep": "R&D Review",
+    "steps": [
+      { "name": "R&D Review", "approver": "u.rnd1", "status": "Pending" },
+      { "name": "DC Approval", "approver": "u.qa1", "status": "Waiting" },
+      { "name": "Management Sign-off", "approver": "u.mgr1", "status": "Waiting" }
+    ],
+    "createdAt": "2025-08-20T09:10:00Z",
+    "updatedAt": "2025-08-20T09:10:00Z"
+  },
+  {
+    "id": "APR-0003",
+    "targetType": "FormSubmission",
+    "targetId": "FRM-01#SUB-15",
+    "title": "Maintenance Request #15",
+    "requestedBy": "u.ops1",
+    "status": "Approved",
+    "pendingStep": null,
+    "steps": [
+      { "name": "Supervisor", "approver": "u.sup1", "status": "Approved", "actedAt": "2025-08-01T10:00:00Z" },
+      { "name": "Maintenance Manager", "approver": "u.mm1", "status": "Approved", "actedAt": "2025-08-01T13:30:00Z" }
+    ],
+    "createdAt": "2025-08-01T09:30:00Z",
+    "updatedAt": "2025-08-01T13:30:00Z"
+  }
+]
