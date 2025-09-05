@@ -30,13 +30,21 @@
           "id": "CK-01",
           "title": "Information Security Management",
           "items": [
-            { "id": "Q1", "text": "Are access controls properly implemented?", "rating": null, "evidence": [] },
-            { "id": "Q2", "text": "Is incident response plan current?", "rating": null, "evidence": [] }
+            { "id": "Q1", "text": "Is there a current inventory of information assets?", "rating": null, "evidence": [] },
+            { "id": "Q2", "text": "Are user access rights reviewed regularly and documented?", "rating": null, "evidence": [] },
+            { "id": "Q3", "text": "Is Multi-Factor Authentication enforced for privileged access?", "rating": null, "evidence": [] },
+            { "id": "Q4", "text": "Are systems and software patched within defined SLAs?", "rating": null, "evidence": [] },
+            { "id": "Q5", "text": "Is there a tested backup and recovery procedure for critical systems?", "rating": null, "evidence": [] },
+            { "id": "Q6", "text": "Is logging and monitoring implemented for security events?", "rating": null, "evidence": [] },
+            { "id": "Q7", "text": "Are data encryption policies applied to sensitive data at rest and in transit?", "rating": null, "evidence": [] },
+            { "id": "Q8", "text": "Is a formal incident response plan in place and exercised?", "rating": null, "evidence": [] },
+            { "id": "Q9", "text": "Are third-party/vendor security controls assessed and recorded?", "rating": null, "evidence": [] },
+            { "id": "Q10", "text": "Are physical security controls for server rooms and data centers enforced?", "rating": null, "evidence": [] }
           ]
         }
       ],
       "reports": [
-        { "id": "AR-01", "issuedAt": null, "summary": "", "carCount": 0, "parCount": 0 }
+        { "id": "AR-01", "issuedAt": "2025-01-25T10:30:00", "summary": "Information security review completed. Minor findings on patching and MFA rollout.", "carCount": 2, "parCount": 1 }
       ],
       "cars": []
     },
@@ -79,13 +87,20 @@
           "id": "CK-02",
           "title": "Good Hygiene Practices Compliance",
           "items": [
-            { "id": "Q1", "text": "Are hygiene protocols followed?", "rating": null, "evidence": [] },
-            { "id": "Q2", "text": "Is sanitization schedule maintained?", "rating": null, "evidence": [] }
+            { "id": "Q1", "text": "Are personnel following required handwashing procedures?", "rating": null, "evidence": [] },
+            { "id": "Q2", "text": "Are protective clothing and PPE used correctly by staff?", "rating": null, "evidence": [] },
+            { "id": "Q3", "text": "Is the workplace cleaned and sanitized according to schedule?", "rating": null, "evidence": [] },
+            { "id": "Q4", "text": "Are waste disposal and pest control procedures in place and effective?", "rating": null, "evidence": [] },
+            { "id": "Q5", "text": "Are supplier hygiene standards verified and documented?", "rating": null, "evidence": [] },
+            { "id": "Q6", "text": "Is there documented training on hygiene practices for all relevant staff?", "rating": null, "evidence": [] },
+            { "id": "Q7", "text": "Are facilities (toilets, changing rooms) maintained in hygienic condition?", "rating": null, "evidence": [] },
+            { "id": "Q8", "text": "Is food handling and storage compliant with temperature controls?", "rating": null, "evidence": [] },
+            { "id": "Q9", "text": "Are records for cleaning, sanitization, and inspections maintained?", "rating": null, "evidence": [] }
           ]
         }
       ],
       "reports": [
-        { "id": "AR-02", "issuedAt": null, "summary": "", "carCount": 0, "parCount": 0 }
+        { "id": "AR-02", "issuedAt": "2025-02-20T15:00:00", "summary": "GHP assessment: sanitization records incomplete at two sites. Actions assigned.", "carCount": 1, "parCount": 2 }
       ],
       "cars": []
     },
@@ -118,13 +133,20 @@
           "id": "CK-03",
           "title": "Financial Controls Assessment",
           "items": [
-            { "id": "Q1", "text": "Are financial approvals documented?", "rating": null, "evidence": [] },
-            { "id": "Q2", "text": "Is segregation of duties maintained?", "rating": null, "evidence": [] }
+            { "id": "Q1", "text": "Are authorization limits documented and applied for transactions?", "rating": null, "evidence": [] },
+            { "id": "Q2", "text": "Is segregation of duties enforced between initiation, approval and recording?", "rating": null, "evidence": [] },
+            { "id": "Q3", "text": "Are bank reconciliations performed timely and reviewed?", "rating": null, "evidence": [] },
+            { "id": "Q4", "text": "Are expense claims validated and supported by receipts?", "rating": null, "evidence": [] },
+            { "id": "Q5", "text": "Is there a control over journal entries and review of manual journals?", "rating": null, "evidence": [] },
+            { "id": "Q6", "text": "Are access rights to financial systems restricted and reviewed?", "rating": null, "evidence": [] },
+            { "id": "Q7", "text": "Are periodic audits or internal reviews performed and tracked?", "rating": null, "evidence": [] },
+            { "id": "Q8", "text": "Is there evidence of reconciliations for key balance sheet accounts?", "rating": null, "evidence": [] },
+            { "id": "Q9", "text": "Are fraud detection and whistleblower processes communicated and available?", "rating": null, "evidence": [] }
           ]
         }
       ],
       "reports": [
-        { "id": "AR-03", "issuedAt": null, "summary": "", "carCount": 0, "parCount": 0 }
+        { "id": "AR-03", "issuedAt": "2025-03-10T11:15:00", "summary": "Finance controls: manual journal controls need strengthening; recommend segregation adjustments.", "carCount": 0, "parCount": 3 }
       ],
       "cars": []
     },
@@ -167,13 +189,21 @@
           "id": "CK-04",
           "title": "HACCP Implementation",
           "items": [
-            { "id": "Q1", "text": "Are HACCP principles implemented?", "rating": null, "evidence": [] },
-            { "id": "Q2", "text": "Is critical control point monitoring active?", "rating": null, "evidence": [] }
+            { "id": "Q1", "text": "Has a hazard analysis been documented and reviewed?", "rating": null, "evidence": [] },
+            { "id": "Q2", "text": "Are critical control points (CCPs) identified and validated?", "rating": null, "evidence": [] },
+            { "id": "Q3", "text": "Are critical limits defined and documented for each CCP?", "rating": null, "evidence": [] },
+            { "id": "Q4", "text": "Are monitoring procedures for CCPs in place and recorded?", "rating": null, "evidence": [] },
+            { "id": "Q5", "text": "Are corrective actions defined and taken when limits are exceeded?", "rating": null, "evidence": [] },
+            { "id": "Q6", "text": "Is there a verification program (e.g., testing) for HACCP controls?", "rating": null, "evidence": [] },
+            { "id": "Q7", "text": "Are calibration and maintenance records for monitoring equipment up to date?", "rating": null, "evidence": [] },
+            { "id": "Q8", "text": "Are training records for HACCP and food safety maintained?", "rating": null, "evidence": [] },
+            { "id": "Q9", "text": "Are supplier controls applied for raw materials and ingredients?", "rating": null, "evidence": [] },
+            { "id": "Q10", "text": "Are HACCP records (monitoring, verification, corrective actions) retained per policy?", "rating": null, "evidence": [] }
           ]
         }
       ],
       "reports": [
-        { "id": "AR-04", "issuedAt": null, "summary": "", "carCount": 0, "parCount": 0 }
+        { "id": "AR-04", "issuedAt": "2025-04-20T09:00:00", "summary": "HACCP review: training records missing for new hires; CCP monitoring calibrated.", "carCount": 1, "parCount": 1 }
       ],
       "cars": []
     }
